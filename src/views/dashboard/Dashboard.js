@@ -43,12 +43,13 @@ import {
   cilUserFemale,
 } from '@coreui/icons'
 
-import avatar1 from 'src/assets/images/avatars/1.jpg'
-import avatar2 from 'src/assets/images/avatars/2.jpg'
-import avatar3 from 'src/assets/images/avatars/3.jpg'
-import avatar4 from 'src/assets/images/avatars/4.jpg'
-import avatar5 from 'src/assets/images/avatars/5.jpg'
-import avatar6 from 'src/assets/images/avatars/6.jpg'
+// Заменяем импорты аватаров на base64 заглушки
+const avatar1 = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHJ4PSIyMCIgZmlsbD0iI0U5RUNFRiIvPjxwYXRoIGQ9Ik0yMCAyMEMyMi4yMDkxIDIwIDI0IDIxLjc5MDkgMjQgMjRDMjQgMjYuMjA5MSAyMi4yMDkxIDI4IDIwIDI4QzE3Ljc5MDkgMjggMTYgMjYuMjA5MSAxNiAyNEMxNiAyMS43OTA5IDE3Ljc5MDkgMjAgMjAgMjBaIiBmaWxsPSIjQTFBMUFBIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMCAxOEMyMS42NTY5IDE4IDIzIDE2LjY1NjkgMjMgMTVDMjMgMTMuMzQzMSAyMS42NTY5IDEyIDIwIDEyQzE4LjM0MzEgMTIgMTcgMTMuMzQzMSAxNyAxNUMxNyAxNi42NTY5IDE4LjM0MzEgMTggMjAgMThaIiBmaWxsPSIjQTFBMUFBIi8+PC9zdmc+'
+const avatar2 = avatar1
+const avatar3 = avatar1
+const avatar4 = avatar1
+const avatar5 = avatar1
+const avatar6 = avatar1
 
 import WidgetsBrand from '../widgets/WidgetsBrand'
 import WidgetsDropdown from '../widgets/WidgetsDropdown'
